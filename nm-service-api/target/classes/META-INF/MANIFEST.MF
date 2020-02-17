@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: nm-service-api
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: mah
+Implementation-Vendor-Id: com.ningmeng
+Build-Jdk: 1.8.0_91
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/nm-service-api
+Created-By: Maven Integration for Eclipse
+
