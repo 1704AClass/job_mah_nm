@@ -24,7 +24,7 @@ public class RabbitConfig {
     public static final String QUEUE_INFORM_EMAIL = "queue_inform_email";
 
     /**
-     * 交换机配置 -- 声明一个交换机111
+     * 交换机配置 -- 声明一个交换机
      * durable 持续
      * @Bean(EXCHANGE_TOPICS_INFORM) 等价于 <bean id=""></bean>
      */
