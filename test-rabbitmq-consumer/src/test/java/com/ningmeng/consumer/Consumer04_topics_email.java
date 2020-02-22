@@ -4,6 +4,9 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
+/**
+ * Created by BJDGZJD on 13/2/2020.
+ */
 public class Consumer04_topics_email {
     //发送邮件
     private static final String QUEUE_INFORM_EMAIL="queue_inform_email";
@@ -82,5 +85,4 @@ public class Consumer04_topics_email {
             e.printStackTrace();
         }
     }
-
 }

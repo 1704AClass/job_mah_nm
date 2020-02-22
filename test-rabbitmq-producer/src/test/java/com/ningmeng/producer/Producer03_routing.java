@@ -91,7 +91,14 @@ public class Producer03_routing {
                 String manage = "小明你好 你的短信";
                 System.out.println("send :"+manage+"，时间："+new Date());
                 channel.basicPublish(EXCHANGE_ROUTING_INFORM,QUEUE_INFORM_SMS,null,manage.getBytes());
+
+
             }
+
+
+
+
+
         }catch (Exception e){
             e.printStackTrace();
         }

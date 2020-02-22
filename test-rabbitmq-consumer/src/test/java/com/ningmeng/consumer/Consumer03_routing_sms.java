@@ -4,6 +4,9 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
+/**
+ * Created by BJDGZJD on 13/2/2020.
+ */
 public class Consumer03_routing_sms {
     //发送邮件
     private static final String QUEUE_INFORM_SMS="queue_inform_sms";

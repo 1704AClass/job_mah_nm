@@ -1,167 +1,330 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fbb4d90-e8c8-4e30-a81a-0768f00aa918" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="aa0d6600-f1d0-4e71-9d03-7a6cc4219019" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand />
+    <select />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectId" id="1XceYGdrQ6hLjOFtHSVuZYcObEg" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="package-info" />
+        <option value="package.json" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/层帝/博客云架构/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\层帝\博客云架构\m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="ProjectId" id="1XdutT693dSgh7AWjmy1Rz0h9Vt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nm-govern-center/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.ningmeng.manage_course.dao" />
+      <recent name="com.ningmeng.manage_cms_client.dao" />
+      <recent name="com.ningmeng.manage_cms.dao" />
+      <recent name="com.ningmeng.manage_cms_client.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\code\nm-govern-center\src\main\resources" />
+      <recent name="D:\idea\code\nm-service-manage-course\src\main\resources\com\ningmeng\manage_course\dao" />
+      <recent name="D:\idea\code\nm-service-manage-cms-client\src\main\resources" />
+      <recent name="D:\idea\code\nm-service-manage-cms\src\test\java" />
+      <recent name="D:\idea\code\nm-service-manage-cms\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Govern02">
+    <configuration name="CmsPageRepositoryTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nm-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.manage_cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ningmeng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.ningmeng.manage_cms.CmsPageRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Govern01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nm-govern-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.goven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.goven.GovernCenterApplication" />
+      <option name="VM_PARAMETERS" value="-DPORT=50101 -DEUREKA_SERVER=http://eureka02:50102/eureka/ -DEUREKA_DOMAIN=eureka01" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Govern02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="nm-govern-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.goven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.goven.GovernCenterApplication" />
+      <option name="VM_PARAMETERS" value="-DPORT=50102 -DEUREKA_SERVER=http://eureka01:50101/eureka/ -DEUREKA_DOMAIN=eureka02" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageCmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nm-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ningmeng.manage_cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.manage_cms.ManageCmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAll" />
+      <item itemvalue="Spring Boot.Govern02" />
+      <item itemvalue="Spring Boot.Govern01" />
+      <item itemvalue="Spring Boot.ManageCmsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Govern02" />
+        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAll" />
+        <item itemvalue="Spring Boot.ManageCmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fbb4d90-e8c8-4e30-a81a-0768f00aa918" name="Default" comment="" />
-      <created>1581349068232</created>
+      <changelist id="aa0d6600-f1d0-4e71-9d03-7a6cc4219019" name="Default Changelist" comment="" />
+      <created>1581388506339</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581349068232</updated>
-      <workItem from="1581349075137" duration="45000" />
-      <workItem from="1581349131412" duration="5000" />
-      <workItem from="1581349152365" duration="9000" />
+      <updated>1581388506339</updated>
+      <workItem from="1581388509707" duration="6075000" />
+      <workItem from="1581398916408" duration="1729000" />
+      <workItem from="1581474265416" duration="5610000" />
+      <workItem from="1581485669185" duration="1143000" />
+      <workItem from="1581506775728" duration="5482000" />
+      <workItem from="1581565582188" duration="134000" />
+      <workItem from="1581596196496" duration="6525000" />
+      <workItem from="1581681710492" duration="1077000" />
+      <workItem from="1581682803912" duration="1084000" />
+      <workItem from="1581683904467" duration="3470000" />
+      <workItem from="1581769672597" duration="2114000" />
+      <workItem from="1582027134032" duration="5409000" />
+      <workItem from="1582088365731" duration="162000" />
+      <workItem from="1582090774965" duration="1583000" />
+      <workItem from="1582113902292" duration="1640000" />
+      <workItem from="1582163952082" duration="5320000" />
+      <workItem from="1582171536149" duration="20000" />
+      <workItem from="1582171575462" duration="22000" />
+      <workItem from="1582178109326" duration="663000" />
+      <workItem from="1582204027608" duration="7386000" />
+      <workItem from="1582287620850" duration="6976000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="952" y="167" width="1400" height="1000" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="WindowStateProjectService">
+    <state x="650" y="45" key="#Inspections" timestamp="1582291954216">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="650" y="45" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1582291954216" />
+    <state x="705" y="50" key="#Project_Structure" timestamp="1582204812151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="705" y="50" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582204812151" />
+    <state x="386" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582292997176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582292997176" />
+    <state x="521" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581474671812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="521" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581474671812" />
+    <state x="1015" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1582293522181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1015" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582293522181" />
+    <state x="762" y="323" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581599551539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="762" y="323" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1581599551539" />
+    <state x="894" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581599351068">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="894" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1581599351068" />
+    <state x="441" y="53" key="FileChooserDialogImpl" timestamp="1582204057495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="441" y="53" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582204057495" />
+    <state width="930" height="225" key="GridCell.Tab.0.bottom" timestamp="1582294175451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582294175451" />
+    <state width="930" height="225" key="GridCell.Tab.0.center" timestamp="1582294175451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582294175451" />
+    <state width="930" height="225" key="GridCell.Tab.0.left" timestamp="1582294175451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582294175451" />
+    <state width="930" height="225" key="GridCell.Tab.0.right" timestamp="1582294175451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582294175451" />
+    <state width="930" height="225" key="GridCell.Tab.1.bottom" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.1.center" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.1.left" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.1.right" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.2.bottom" timestamp="1582294175295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582294175295" />
+    <state width="930" height="225" key="GridCell.Tab.2.center" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.2.left" timestamp="1582294175294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1582294175294" />
+    <state width="930" height="225" key="GridCell.Tab.2.right" timestamp="1582294175295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="225" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582294175295" />
+    <state x="588" y="41" key="Maven.ArtifactSearchDialog" timestamp="1582288515973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="588" y="41" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1582288515973" />
+    <state x="106" y="232" key="NewModule_or_Project.wizard" timestamp="1582204059600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="106" y="232" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1582204059600" />
+    <state x="365" y="0" key="SettingsEditor" timestamp="1582294561815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582294561815" />
+    <state x="922" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582287620903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="922" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582287620903" />
+    <state x="440" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581682986972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="440" y="380" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1581682986972" />
+    <state x="356" y="80" width="1180" height="583" key="new project wizard" timestamp="1582287674914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="80" width="1180" height="583" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582287674914" />
+    <state x="854" y="178" key="run.anything.popup" timestamp="1582178141036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="854" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582178141036" />
+    <state x="490" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1582293187409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582293187409" />
   </component>
 </project>

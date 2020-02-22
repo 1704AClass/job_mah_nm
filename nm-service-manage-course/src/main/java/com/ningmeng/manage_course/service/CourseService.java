@@ -1,14 +1,20 @@
 package com.ningmeng.manage_course.service;
 
+import com.github.pagehelper.PageHelper;
 import com.ningmeng.framework.domain.course.CourseBase;
+import com.ningmeng.framework.domain.course.CoursePic;
 import com.ningmeng.framework.domain.course.Teachplan;
+import com.ningmeng.framework.domain.course.ext.CourseInfo;
 import com.ningmeng.framework.domain.course.ext.TeachplanNode;
+import com.ningmeng.framework.domain.course.request.CourseListRequest;
+import com.ningmeng.framework.domain.course.response.AddCourseResult;
 import com.ningmeng.framework.exception.ExceptionCast;
 import com.ningmeng.framework.model.response.CommonCode;
+import com.ningmeng.framework.model.response.QueryResponseResult;
+import com.ningmeng.framework.model.response.QueryResult;
 import com.ningmeng.framework.model.response.ResponseResult;
-import com.ningmeng.manage_course.dao.CourseBaseRepository;
-import com.ningmeng.manage_course.dao.TeachplanMapper;
-import com.ningmeng.manage_course.dao.TeachplanRepository;
+import com.ningmeng.manage_course.dao.*;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -24,10 +30,16 @@ public class CourseService {
     private TeachplanMapper teachplanMapper;
 
     @Resource
+    private CourseMapper courseMapper;
+
+    @Resource
     private TeachplanRepository teachplanRepository;
 
     @Resource
     private CourseBaseRepository courseBaseRepository;
+
+    @Resource
+    private CoursePicRepositroy coursePicRepository;
 
     //查询课程计划
     public TeachplanNode findTeachplanList(String courseId){
@@ -101,6 +113,76 @@ public class CourseService {
         return new ResponseResult(CommonCode.SUCCESS);
     }
 
+
+    @Transactional
+    public QueryResponseResult findCourseList(int page, int size, CourseListRequest courseListRequest) {
+        if(courseListRequest == null){
+            courseListRequest = new CourseListRequest();
+        }
+        if(page <= 0){
+            page = 0;
+        }
+        if(size <= 0){
+            size = 20;
+        }
+        //设置分页参数
+        PageHelper.startPage(page,size);
+        //分页查询s
+        Page<CourseInfo> courseInfoPage = courseMapper.findCourseListPage(courseListRequest);
+        QueryResult<CourseInfo> queryResult = new QueryResult();
+        queryResult.setList(courseInfoPage.getContent());
+        queryResult.setTotal(courseInfoPage.getTotalElements());
+        return new QueryResponseResult(CommonCode.SUCCESS,queryResult);
+    }
+
+
+    @Transactional
+    public AddCourseResult addCourseBase(CourseBase courseBase) {
+        //课程状态默认为未发布
+        courseBase.setStatus("202001");
+        courseBaseRepository.save(courseBase);
+        return new AddCourseResult(CommonCode.SUCCESS,courseBase.getId());
+    }
+
+    @Transactional
+    public ResponseResult saveCoursePic(String courseId, String pic) {
+        //查询课程图片
+        Optional<CoursePic> picOptional = coursePicRepository.findById(courseId);
+        CoursePic coursePic = null;
+        if(picOptional.isPresent()){
+            coursePic = picOptional.get();
+        }
+        //没有课程图片则新建对象
+        if(coursePic == null){
+            coursePic = new CoursePic();
+        }
+        coursePic.setCourseid(courseId);
+        coursePic.setPic(pic);
+        //保存课程图片
+        coursePicRepository.save(coursePic);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+
+    public CoursePic findCoursePic(String courseId) {
+        Optional<CoursePic> one = coursePicRepository.findById(courseId);
+        if(one.isPresent()){
+            return one.get();
+        }
+        return null;
+    }
+
+
+    //删除课程图片
+    @Transactional
+    public ResponseResult deleteCoursePic(String courseId) {
+        //执行删除，返回1表示删除成功，返回0表示删除失败
+        long result = coursePicRepository.deleteByCourseid(courseId);
+        if(result > 0){
+            return new ResponseResult(CommonCode.SUCCESS);
+        }
+        return new ResponseResult(CommonCode.FAIL);
+    }
 
 
 

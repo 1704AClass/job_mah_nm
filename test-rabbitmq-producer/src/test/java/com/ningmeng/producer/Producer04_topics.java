@@ -7,6 +7,9 @@ import com.rabbitmq.client.ConnectionFactory;
 
 import java.util.Date;
 
+/**
+ * Created by BJDGZJD on 14/2/2020.
+ */
 public class Producer04_topics {
     //生产者 正常使用routingKey
 
@@ -114,4 +117,6 @@ public class Producer04_topics {
 
         }
     }
+
+
 }

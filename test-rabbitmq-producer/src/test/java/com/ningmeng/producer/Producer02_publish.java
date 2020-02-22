@@ -5,70 +5,91 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+import java.util.Date;
+
+/**
+ * Created by BJDGZJD on 13/2/2020.
+ */
 public class Producer02_publish {
 
-    //队列名称
     //发送邮件
-    private static final String QUEUE_INFORM_EMAIL = "queue_inform_email";
+    private static final String QUEUE_INFORM_EMAIL="queue_inform_email";
     //发送短信
-    private static final String QUEUE_INFORM_SMS = "queue_inform_sms";
-    //交换器
+    private static final String QUEUE_INFORM_SMS="queue_inform_sms";
+    //FANOUT类型的交换器
     private static final String EXCHANGE_FANOUT_INFORM="exchange_fanout_inform";
 
     public static void main(String[] args) {
-        try{
-            //创建连接工厂
+
+        try {
+            //创建初始化连接工厂
             ConnectionFactory factory = new ConnectionFactory();
             factory.setHost("127.0.0.1");
-            //浏览器端口为15672  后台为5672
+            //浏览器管理页面使用端口：15672 后台使用端口:5672
             factory.setPort(5672);
             factory.setUsername("guest");
             factory.setPassword("guest");
             factory.setVirtualHost("/");
-            //rabbitmq默认虚拟机名称为“/”，虚拟机相当于一个独立的mq服务 器            
-            //创建与RabbitMQ服务的TCP连接         
+            //rabbitmq默认虚拟机名称为“/”，虚拟机相当于一个独立的mq服务器
+
+            //创建连接
             Connection connection = factory.newConnection();
-            //创建与Exchange的通道，每个连接可以创建多个通道，每个通道代表一个会话任务             
+            //生产者和Broker建立通道。（信道）
+            // 每个连接可以创建多个通道，每个通道代表一个会话任务
             Channel channel = connection.createChannel();
-            /**              
-             * 声明队列，如果Rabbit中没有此队列将自动创建
-             * param1:队列名称
-             * param2:是否持久化
-             * param3:队列是否独占此连接
-             * param4:队列不再使用时是否自动删除此队列
-             * param5:队列参数
+
+
+            /**
+             * 创建交换机
+             *  DIRECT("direct"),
+             FANOUT("fanout"),发布/订阅
+             TOPIC("topic"),
+             HEADERS("headers")
              */
-            channel.queueDeclare(QUEUE_INFORM_EMAIL, true, false, false, null);
-            channel.queueDeclare(QUEUE_INFORM_SMS, true, false, false, null);
-            //交换机和队列绑定String queue, String exchange 交换机名称, String routingKey 交换机类型    
             channel.exchangeDeclare(EXCHANGE_FANOUT_INFORM, BuiltinExchangeType.FANOUT);
-            /**             
-             *  参数明细
-             *  1、队列名称
-             *  2、交换机名称
-             *  3、路由key
+
+            /**
+             * 声明队列 如果Rabbit中没有此队列将自动创建
+             * String queue  队列名称,
+             * boolean durable 是否持久化 如果你的rabbitMQ重新启动，消息会不会丢失,如果durable为true持久化，为false不持久化
+             * boolean exclusive 排他，互斥,队列是否独占此连接，如果true就独占连接 false就是不独占
+             * boolean autoDelete 是否自动删除, true 用完队列就删除  false 用完队列不删除  如果exclusive为true和autoDelete为true 此队列变成临时队列
+             * Map<String, Object> arguments  队列参数 设置队列存活时间等等
              */
-            //发布订阅不需要路由
+            channel.queueDeclare(QUEUE_INFORM_EMAIL,true,false,false,null);
+            channel.queueDeclare(QUEUE_INFORM_SMS,true,false,false,null);
+            //交换机声明  String exchange交换机名称,BuiltinExchangeTypetype 交换机类型
+
+
+            //交换机和队列绑定String queue,String exchange,String routingKey
+            //参数明细
+            //队列名称
+            //2、交换机名称
+            //3、路由key 发布订阅不用设置路由
             channel.queueBind(QUEUE_INFORM_EMAIL,EXCHANGE_FANOUT_INFORM,"");
             channel.queueBind(QUEUE_INFORM_SMS,EXCHANGE_FANOUT_INFORM,"");
 
-            for(int i=0;i<5;i++){
-                String message = "infoem to user"+i;
-                //向交换机发送消息 String exchange, String routingKey, BasicProperties props, byte[] body
-                /**                  
-                 * 参数明细                  
-                 * 1、交换机名称，不指令使用默认交换机名称 Default Exchange                  
-                 * 2、routingKey（路由key），根据key名称将消息转发到具体的队列，这里填写队列名称表示消 息将发到此队列                  
-                 * 3、消息属性                  
-                 * 4、消息内容                  
+            for (int i = 0;i<5;i++){
+                /**
+                 * 消息发布方法
+                 * String exchange, 交换机 如果用的是普通队列 交换机名称可以为""
+                 * String routingKey,消息的路由Key，是用于Exchange（交换机）根据routingKey将消息转发到指定的消息队列
+                 * BasicProperties props, 消息包含的属性，工作中用的很少
+                 * byte[] body 消息主体
                  */
-                channel.basicPublish(EXCHANGE_FANOUT_INFORM, "", null, message.getBytes());
-                System.out.println("Send Message is:'" + message + "'");
+                String manage = "小明你好";
+                System.out.println("send :"+manage+"，时间："+new Date());
+                channel.basicPublish(EXCHANGE_FANOUT_INFORM,"",null,manage.getBytes());
+
+
             }
-        }catch(Exception e){
+
+
+
+
+        }catch (Exception e){
             e.printStackTrace();
         }
-
-
     }
+
 }

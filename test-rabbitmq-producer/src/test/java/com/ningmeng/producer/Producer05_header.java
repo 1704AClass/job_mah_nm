@@ -6,8 +6,10 @@ import java.util.Date;
 import java.util.Hashtable;
 import java.util.Map;
 
+/**
+ * Created by BJDGZJD on 14/2/2020.
+ */
 public class Producer05_header {
-
     //生产者 正常使用routingKey
 
     //发送邮件
@@ -23,7 +25,7 @@ public class Producer05_header {
         Map<String,Object> headers_email=new Hashtable<String,Object>();
         headers_email.put("inform_type","email");
         //发送短信
-        Map<String,Object> headers_sms=new Hashtable<String,Object>();
+        Map<String,Object>headers_sms=new Hashtable<String,Object>();
         headers_sms.put("inform_type","sms");
 
         try {
@@ -67,7 +69,7 @@ public class Producer05_header {
             //队列名称
             //2、交换机名称
             //3、路由key 发布订阅不用设置路由
-            channel.queueBind(QUEUE_INFORM_EMAIL,EXCHANGE_HEARDS_INFORM,"",headers_email);
+           channel.queueBind(QUEUE_INFORM_EMAIL,EXCHANGE_HEARDS_INFORM,"",headers_email);
             channel.queueBind(QUEUE_INFORM_SMS,EXCHANGE_HEARDS_INFORM,"",headers_sms);
 
 
@@ -123,5 +125,6 @@ public class Producer05_header {
 
         }
     }
+
 
 }
