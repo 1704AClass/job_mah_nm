@@ -6,20 +6,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../nm/nm-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/nm-framework-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/nm‐service‐manage‐cms/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-service-manage-media-processor/pom.xml" />
+        <option value="$PROJECT_DIR$/nm-service-learning/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../nm/nm-framework-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../nm/nm-framework-model/pom.xml" />
-        <option value="$PROJECT_DIR$/../nm/nm-framework-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/../nm/nm-framework-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/../nm/nm-service-api/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

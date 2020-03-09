@@ -1,6 +1,9 @@
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\filesystemapi\FileSyetemControllerApi.java
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\cmsapi\CmsPageControllerApi.java
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CategoryControllerApi.java
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\SysDicthinaryControllerApi.java
-E:\cms\idea\nm-CMS-1704A\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CourseControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\searchapi\EsCourseControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\filesystemapi\FileSyetemControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\mediaapi\MediaUploadControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CategoryControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\courseapi\CourseControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\mediaapi\MediaFileControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\config\Swagger2Configuration.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\courseapi\SysDicthinaryControllerApi.java
+C:\Users\mah\Desktop\zaixianjiaoyu\ningmeng_mah\nm-service-api\src\main\java\com\ningmeng\api\cmsapi\CmsPageControllerApi.java
