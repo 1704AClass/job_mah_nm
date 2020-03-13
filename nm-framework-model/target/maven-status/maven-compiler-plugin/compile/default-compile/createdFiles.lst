@@ -1,6 +1,5 @@
 com\ningmeng\framework\domain\ucenter\XcRole.class
 com\ningmeng\framework\domain\course\CourseOff.class
-com\ningmeng\framework\domain\course\TeachplanMediaPub.class
 com\ningmeng\framework\domain\media\MediaVideoCourseSimple.class
 com\ningmeng\framework\domain\cms\CmsPage.class
 com\ningmeng\framework\domain\cms\CmsSiteServer.class
