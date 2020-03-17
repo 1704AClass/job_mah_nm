@@ -2,66 +2,795 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0b4807c-bb12-47b2-ab5b-403227842392" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/nm-service-ucenter-auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/nm-service-ucenter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_okhttp_8_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/exception/CustomExceptionCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/exception/CustomExceptionCast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/cms/response/CmsPostPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/course/TeachplanMediaPub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/course/ext/CourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/course/response/CoursePublishResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/learning/response/GetMediaResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmCompanyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/NmUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/ext/NmMenuExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/ext/NmUserExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsConfigModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsPageParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsSiteServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/CmsTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/ext/CmsPageExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/ext/CmsTemplateExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/request/QueryPageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/CmsPageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/CmsPostPageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/CoursePreviewResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CourseBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CourseIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CourseMarket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CourseOff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CoursePic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CoursePre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/CoursePub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/Teachplan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/TeachplanMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/TeachplanMediaPub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/CategoryNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/CategoryParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/CourseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/CourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/TeachplanExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/TeachplanNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/ext/TeachplanParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/request/CourseListRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/response/AddCourseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/response/CourseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/response/CoursePublishResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/course/response/DeleteCourseResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/filesystem/FileSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/filesystem/response/UploadFileResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/learning/XcLearningCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/learning/XcLearningList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/learning/response/GetMediaResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaVideoCourseSimple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/request/QueryMediaFileRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/CheckChunkResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/MediaCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/XcOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/XcOrdersDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/XcOrdersPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/request/CreateOrderRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/request/weixinPayInformRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/response/CreateOrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/response/OrderCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/response/OrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/response/PayOrderResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/order/response/PayQrcodeResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/portalview/PreViewCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/portalview/PreViewCourseMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/portalview/ViewCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/portalview/ViewCourseMedia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/portalview/response/PortalViewCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/report/ReportCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/report/ReportCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/search/CourseSearchParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/system/SysDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/system/SysDictionaryValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/task/XcTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/task/XcTaskHis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmCompanyUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/NmUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcCompanyUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/XcUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/AuthToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/NmMenuExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/NmUserExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/UserBasicInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/UserToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/UserTokenStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/XcMenuExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/ext/XcUserExt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/request/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/response/JwtResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/response/LoginResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/ucenter/response/UcenterCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/src/main/java/com/ningmeng/goven/GovernCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/target/classes/com/ningmeng/goven/GovernCenterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-center/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/nm-govern-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/java/com/ningmeng/govern/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/java/com/ningmeng/govern/gateway/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/java/com/ningmeng/govern/gateway/filter/LoginFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/java/com/ningmeng/govern/gateway/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/com/ningmeng/govern/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/com/ningmeng/govern/gateway/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/com/ningmeng/govern/gateway/filter/LoginFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/com/ningmeng/govern/gateway/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-govern-gateway/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/auth/AuthControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/courseapi/CategoryControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/courseapi/CourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/courseapi/SysDicthinaryControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/filesystemapi/FileSyetemControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/learningapi/CourseLearningControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/mediaapi/MediaFileControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/mediaapi/MediaUploadControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/searchapi/EsCourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/ucenterapi/UcenterControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/auth/AuthControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/courseapi/CategoryControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/courseapi/CourseControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/courseapi/SysDicthinaryControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/filesystemapi/FileSyetemControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/learningapi/CourseLearningControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/mediaapi/MediaFileControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/mediaapi/MediaUploadControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/searchapi/EsCourseControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/ucenterapi/UcenterControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/FileSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/controller/FileSystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/dao/FileSystemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/service/FileSystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/com/ningmeng/filesystem/FileSystemApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/com/ningmeng/filesystem/controller/FileSystemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/com/ningmeng/filesystem/dao/FileSystemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/com/ningmeng/filesystem/service/FileSystemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-base-filesystem/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/LearningApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/client/CourseSearchClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/controller/CourseLearningController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/service/LearningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/com/ningmeng/learning/LearningApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/com/ningmeng/learning/client/CourseSearchClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/com/ningmeng/learning/controller/CourseLearningController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/com/ningmeng/learning/service/LearningService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-learning/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/src/main/java/com/ningmeng/manage_cms_client/ManageCmsClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/src/main/java/com/ningmeng/manage_cms_client/service/PageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/com/ningmeng/manage_cms_client/ManageCmsClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/com/ningmeng/manage_cms_client/config/RabbitmqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/com/ningmeng/manage_cms_client/dao/CmsPageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/com/ningmeng/manage_cms_client/mq/ConsumerPostPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/com/ningmeng/manage_cms_client/service/PageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms-client/target/nm-service-manage-cms-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/ManageCmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/controller/CmsPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/dao/CmsPageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/dao/CmsSiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/service/CmsPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/src/test/java/com/ningmeng/manage_cms/CmsPageRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/ManageCmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/config/RabbitmqConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/controller/CmsPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/dao/CmsPageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/dao/CmsSiteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/com/ningmeng/manage_cms/service/CmsPageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/nm-service-manage-cms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/surefire-reports/TEST-com.ningmeng.manage_cms.CmsPageRepositoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/surefire-reports/com.ningmeng.manage_cms.CmsPageRepositoryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-cms/target/test-classes/com/ningmeng/manage_cms/CmsPageRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/client/CmsPageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/SysDictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CourseMarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CoursePicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CoursePubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/SysDicthinaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/SysDictionaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanMediaPubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanMediaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/service/SysdictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/resources/com/ningmeng/manage_course/dao/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/resources/com/ningmeng/manage_course/dao/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/resources/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/test/java/com/ningmeng/manage_course/dao/TestFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/src/test/java/com/ningmeng/manage_course/dao/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/client/CmsPageClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/config/ResourceServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/controller/SysDictionaryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CourseMarketRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CoursePicRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CoursePubRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/SysDicthinaryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/SysDictionaryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/TeachplanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/TeachplanMediaPubRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/TeachplanMediaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/TeachplanRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/service/SysdictionaryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/TEST-com.ningmeng.manage_course.dao.TestDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/TEST-com.ningmeng.manage_course.dao.TestFeign.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/TEST-com.ningmeng.manage_course.dao.Tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/com.ningmeng.manage_course.dao.TestDao.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/com.ningmeng.manage_course.dao.TestFeign.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/surefire-reports/com.ningmeng.manage_course.dao.Tests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/test-classes/com/ningmeng/manage_course/dao/TestFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-course/target/test-classes/com/ningmeng/manage_course/dao/Tests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/java/com/ningmeng/manage_media_process/ManageMediaProcessorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/java/com/ningmeng/manage_media_process/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/java/com/ningmeng/manage_media_process/dao/MediaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/java/com/ningmeng/manage_media_process/mq/MediaProcessTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/src/test/java/com/ningmeng/manage_media_process/testProcessBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/com/ningmeng/manage_media_process/ManageMediaProcessorApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/com/ningmeng/manage_media_process/config/RabbitMQConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/com/ningmeng/manage_media_process/dao/MediaFileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/com/ningmeng/manage_media_process/mq/MediaProcessTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media-processor/target/test-classes/com/ningmeng/manage_media_process/testProcessBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/ManageMediaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/controller/MediaFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/controller/MediaUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/dao/MediaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/service/MediaFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/java/com/ningmeng/manage_media/service/MediaUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/src/test/java/com/ningmeng/manage_media/testChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/ManageMediaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/config/RabbitMQConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/controller/MediaFileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/controller/MediaUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/dao/MediaFileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/service/MediaFileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/service/MediaUploadService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/com/ningmeng/manage_media/service/MediaUploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/test-classes/com/ningmeng/manage_media/testChunk$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-media/target/test-classes/com/ningmeng/manage_media/testChunk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/nm-service-manage-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/ManageOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/config/AsyncTaskConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/config/ChooseCourseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/dao/NmTaskHisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/dao/NmTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/java/com/ningmeng/order/task/ChooseCourseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-manage-order/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/java/com/ningmeng/search/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/java/com/ningmeng/search/config/ElasticsearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/java/com/ningmeng/search/controller/EsCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/java/com/ningmeng/search/servlet/EsCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/src/test/java/com/ningmeng/search/TestIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/com/ningmeng/search/SearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/com/ningmeng/search/config/ElasticsearchConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/com/ningmeng/search/controller/EsCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/com/ningmeng/search/servlet/EsCourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-search/target/test-classes/com/ningmeng/search/TestIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/UcenterAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/CustomUserAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/UserJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/resources/nm.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestJWT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/UcenterAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/config/AuthorizationServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/config/CustomUserAuthenticationConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/service/AuthService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/com/ningmeng/auth/service/UserJwt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/classes/nm.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/test-classes/com/ningmeng/auth/TestClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/test-classes/com/ningmeng/auth/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/test-classes/com/ningmeng/auth/TestJWT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/target/test-classes/com/ningmeng/auth/TestRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/UcenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/controller/UcenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/dao/NmCompanyUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/dao/NmUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/com/ningmeng/ucenter/UcenterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/com/ningmeng/ucenter/controller/UcenterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/com/ningmeng/ucenter/dao/NmCompanyUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/com/ningmeng/ucenter/dao/NmUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/com/ningmeng/ucenter/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nm-service-ucenter/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_alibaba_fastjson_1_2_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_google_guava_guava_24_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_ningmeng_nm_framework_common_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_ningmeng_nm_framework_model_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_ningmeng_nm_framework_utils_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/src/test/java/com/ningmeng/consumer/Consumer05_header_email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/classes/com/ningmeng/test/ManageCmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/classes/com/ningmeng/test/config/RabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/classes/com/ningmeng/test/mq/ReceiveHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/test-classes/com/ningmeng/consumer/Consumer05_header_email$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-consumer/target/test-classes/com/ningmeng/consumer/Consumer05_header_email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_alibaba_fastjson_1_2_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_google_guava_guava_24_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_ningmeng_nm_framework_common_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_ningmeng_nm_framework_model_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_ningmeng_nm_framework_utils_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/src/main/java/com/ningmeng/test/TestRabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/src/main/java/com/ningmeng/test/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/src/main/java/com/ningmeng/test/rabbitmq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/src/test/java/com/ningmeng/producer/Producer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/target/classes/com/ningmeng/test/TestRabbitmqApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/target/classes/com/ningmeng/test/config/RabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/target/classes/com/ningmeng/test/rabbitmq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rabbitmq-producer/target/test-classes/com/ningmeng/producer/Producer01.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/exception/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/exception/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/exception/ExceptionCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/exception/ExceptionCatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/request/RequestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/request/RequestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/CommonCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/CommonCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/QueryResponseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/QueryResponseResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/QueryResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/QueryResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/ResponseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/model/response/ResponseResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/web/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/classes/com/ningmeng/framework/web/BaseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-common/target/nm-framework-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-common/target/nm-framework-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/response/AuthCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/src/main/java/com/ningmeng/framework/domain/ucenter/response/AuthCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/GenerateHtmlResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/cms/response/GenerateHtmlResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/filesystem/response/FileSystemCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/filesystem/response/FileSystemCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFileProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFileProcess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFileProcess_m3u8.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaFileProcess_m3u8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaVideoCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/MediaVideoCourse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/MediaCourseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/MediaCourseResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/MediaFileResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/classes/com/ningmeng/framework/domain/media/response/MediaFileResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-model/target/nm-framework-model.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-model/target/nm-framework-model.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nm-framework-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/BCryptUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/BCryptUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/CookieUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/GenerateOrderNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/GenerateOrderNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HlsVideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HlsVideoUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HttpClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HttpClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/HttpClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Mp4VideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Mp4VideoUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Oauth2Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Oauth2Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Snowflake.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/Snowflake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/SnowflakeIdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/SnowflakeIdWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/VideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/VideoUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/XcOauth2Util$UserJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/XcOauth2Util$UserJwt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/XcOauth2Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/XcOauth2Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/ZipUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/classes/com/ningmeng/framework/utils/ZipUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-framework-utils/target/nm-framework-utils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nm-framework-utils/target/nm-framework-utils.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/cmsapi/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-api/target/classes/com/ningmeng/api/cmsapi/CmsPageControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-api/target/nm-service-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-api/target/nm-service-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-learning/nm-service-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-learning/nm-service-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nm-service-manage-course/nm-service-manage-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/nm-service-manage-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/src/main/resources/com/ningmeng/manage_course/dao/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/src/main/resources/com/ningmeng/manage_course/dao/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CourseMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-manage-course/target/classes/com/ningmeng/manage_course/dao/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-service-search/nm-service-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-search/nm-service-search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-service-ucenter-auth/nm-service-ucenter-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-ucenter-auth/nm-service-ucenter-auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nm-service-ucenter/nm-service-ucenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nm-service-ucenter/nm-service-ucenter.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../nm/nm-framework-common/target/" />
     <ignored path="$PROJECT_DIR$/../nm/nm-framework-parent/target/" />
@@ -87,6 +816,8 @@
     <ignored path="$PROJECT_DIR$/nm-service-learning/target/" />
     <ignored path="$PROJECT_DIR$/nm-service-ucenter/target/" />
     <ignored path="$PROJECT_DIR$/nm-service-ucenter-auth/target/" />
+    <ignored path="$PROJECT_DIR$/nm-govern-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/nm-service-manage-order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,22 +842,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/controller/UcenterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -142,6 +864,11 @@
         <option value="$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/cmsapi/CourseLearningControllerApi.java" />
         <option value="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/controller/CourseLearningController.java" />
         <option value="$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/service/LearningService.java" />
+        <option value="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/UserJwt.java" />
+        <option value="$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/service/UserJwtTest.java" />
+        <option value="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/CustomUserAuthenticationConverter.java" />
+        <option value="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/controller/AuthController.java" />
       </list>
     </option>
   </component>
@@ -152,17 +879,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
-    <option name="y" value="180" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1480" />
-    <option name="height" value="800" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,45 +896,11 @@
               <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
               <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-govern-center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-govern-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-govern-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-govern-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ningmeng_mah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ningmeng_mah" type="462c0819:PsiDirectoryNode" />
-              <item name="nm-govern-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="goven" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -220,7 +912,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nm-service-ucenter" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nm-service-manage-order" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -233,6 +927,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25802752" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ningmeng.auth.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,6 +1020,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nm-service-ucenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.ucenter.UcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nm-service-ucenter-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ningmeng.auth.UcenterAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -363,7 +1079,8 @@
       <workItem from="1583384626883" duration="1241000" />
       <workItem from="1583457031328" duration="1349000" />
       <workItem from="1583715556138" duration="4432000" />
-      <workItem from="1584069726327" duration="235000" />
+      <workItem from="1584069726327" duration="3478000" />
+      <workItem from="1584416174982" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="2.22">
       <created>1582336489234</created>
@@ -393,16 +1110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1583717415291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3.13">
+      <created>1584070015998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584070015998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15117000" />
+    <option name="totallyTimeSpent" value="18870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,7 +1152,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.123324394" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14544237" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
@@ -445,130 +1169,10 @@
     <MESSAGE value="2.21" />
     <MESSAGE value="3.5" />
     <MESSAGE value="3.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.9" />
+    <MESSAGE value="3.13" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.13" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/service/FileSystemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/filesystem/FileSystemControllerApi.java" />
-    <entry file="file://$PROJECT_DIR$/nm-service-base-filesystem/src/main/java/com/ningmeng/filesystem/controller/FileSystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/TeachplanMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/SysDicthinaryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CoursePicRepositroy.java" />
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CourseMarketRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/dao/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/SysDicthinaryController.java" />
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-course/src/main/java/com/ningmeng/manage_course/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm‐service‐manage‐cms/src/main/java/com/ningmeng/manage_cms/config/RabbitmqConfig.java" />
-    <entry file="file://$PROJECT_DIR$/nm-service-manage-cms-client/src/main/java/com/ningmeng/manage_cms_client/service/PageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/exception/ExceptionCast.java" />
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/model/response/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/model/response/ResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/model/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/exception/ExceptionCatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-service-search/src/main/java/com/ningmeng/search/servlet/EsCourseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -677,16 +1281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/model/response/GetMediaResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/model/response/GetMediaResult.java" />
     <entry file="file://$PROJECT_DIR$/nm-framework-common/src/main/java/com/ningmeng/framework/exception/CustomExceptionCast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -694,16 +1289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/cmsapi/CourseLearningControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/cmsapi/CourseLearningControllerApi.java" />
     <entry file="file://$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/client/CourseSearchClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -731,13 +1317,6 @@
     <entry file="file://$PROJECT_DIR$/nm-service-learning/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/cmsapi/CmsPageControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/LearningApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -755,16 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/controller/CourseLearningController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nm-service-search/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -775,10 +1344,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nm-govern-center/src/main/java/com/ningmeng/goven/GovernCenterApplication.java">
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/dao/NmUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/dao/NmCompanyUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/UcenterAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/service/UserJwtTest.java" />
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestJWT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/test/java/com/ningmeng/auth/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/UserJwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/controller/CmsPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-manage-cms/src/main/java/com/ningmeng/manage_cms/config/RabbitmqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter/src/main/java/com/ningmeng/ucenter/controller/UcenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-govern-center/src/main/java/com/ningmeng/goven/GovernCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/CustomUserAuthenticationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-ucenter-auth/src/main/java/com/ningmeng/auth/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/filesystemapi/FileSyetemControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-api/src/main/java/com/ningmeng/api/cmsapi/CmsPageControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nm-service-learning/src/main/java/com/ningmeng/learning/controller/CourseLearningController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -835,7 +1578,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>nm-service-learning</last-edited>
+          <last-edited>nm-service-manage-order</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
